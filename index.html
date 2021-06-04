@@ -4,55 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Newspaper</title>
-    <link rel="stylesheet" href="style1.css">
-    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+    <title>SURVEY FROM RK Hotels</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-<header>
-<div class="news-link">
-    <p>www.news.com</p>
-</div>
-<hr class="hr1">
-<h1><span>NEWS</span>PAPER</h1>
-<p class="ad">Tamilnadu's Leading Newspaper Since 1996</p>
-<h2 class="date">June 1,2021</h2><br><br>
-<h2 class="=edition">Edition:65432</h2>
-<hr class="hr2">
+ <div class="container">
+<header class="header">
+    <h1 id="title">Survey Form of RK Hotels</h1>
+    <p id="description">
+        Thank you for taking the time to help us to improve the platform.
+    </p>
 </header>
-<h1>ICC WORLD TEST CHAMPIONSHIP FINAL</h1>
-    <h4>Description</h4>
-    <P>
-        India and New Zealand qualified for the final as the top two teams in the league stage of the 2019–2021 ICC World Test Championship. Due to the COVID-19 pandemic and multiple series being postponed, the league standings were determined by percentage of points earned.On 2 February 2021, Australia postponed their away series against South Africa, resulting in a guaranteed berth in the final for New Zealand.[5][6] On 6 March 2021, India also confirmed their berth for the final, after beating England by 3–1 in a home Test series.
-        The final was initially due to be held at Lord's, but on 10 March 2021 the International Cricket Council (ICC) confirmed that the game had been moved to Rose Bowl as the ground's on-site hotels made the venue suitable to establish a bubble environment, made necessary by the ongoing COVID-19 pandemic.England had used the ground for some of their international fixtures in 2020.
-    </P>
-</div>
-<div class="p-1">
-    <h4>About the Ground</h4>
-    <P>
-        The Rose Bowl, known for sponsorship reasons as Ageas Bowl and also the Hampshire Bowl for the 2019 ICC Cricket World Cup,[2] is a cricket ground and hotel complex in West End, in the Borough of Eastleigh, Hampshire, England, between the M27 motorway and Telegraph Woods. It is the home of Hampshire County Cricket Club, who have played there since 2001.
-        It was constructed as a replacement for the County Ground in Southampton and also the United Services Recreation Ground in Portsmouth, which had both been Hampshire's homes since 1882. Hampshire played their first first-class match at the ground against Worcestershire on 9–11 May 2001, with Hampshire winning by 124 runs. The ground has since hosted international cricket, including One Day Internationals, matches in the 2004 Champions Trophy, two Twenty20 Internationals and Test matches in 2011, 2014 and 2018, when England played Sri Lanka and India. In 2020, the ground was used as one of two biosecure venues, alongside Old Trafford, for the tours involving West Indies, Pakistan and Ireland which were regulated due to the COVID-19 pandemic.
-    </P>
-</div>
-<div class="p-1">
-    <h4>INDIA SQUAD</h4>
-    <P>
-        India’s squad: Rohit Sharma, Shubman Gill, Mayank Agarwal, Cheteshwar Pujara, Virat Kohli (Captain), Ajinkya Rahane (vice-captain), Hanuma Vihari, Rishabh Pant (wicket-keeper), R. Ashwin, Ravindra Jadeja, Axar Patel, Washington Sundar, Jasprit Bumrah, Ishant Sharma, Mohd. Shami, Md. Siraj, Shardul Thakur, Umesh Yadav, KL Rahul (subject to fitness clearance), Wriddhiman Saha (wicket-keeper; subject to fitness clearance). 
-    </P>
-</div>
-</section>
-    <p class="caption">No.1 Ranked Indian team take on the No.2 Newzealand team on June 18,2021 at the ageas bowl,Southampton</p>
-</section>
-        <h4>NEWZEALAND SQUAD</h4>
-        <P>
-            New Zealand squad for WTC final: Kane Williamson, Henry Nicholls, Ross Taylor, Colin de Grandhomme, Rachin Ravindra, Will Young, Jacob Duffy, Daryl Mitchell, Mitchell Santner, Tom Blundell, Devon Conway, Tom Latham, BJ Watling, Trent Boult, Doug Bracewell, Matt Henry, Kyle Jamieson, Ajaz Patel, Tim Southee, Neil Wagner.
-        </P>
-    </div>
-    <img src="https://cdn.insidesport.co/wp-content/uploads/2021/04/30130251/2021-04-30.jpg" height=540 width=1200 class="indvsnz">
-<hr class="hr3">
-<div class="page-no">
-<p>1</p>
-</div>
+<form action="" id="survey-form">
 
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name"id="name"
+        class="formControl" placeholder="Enter Your Name" required>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email"id="email"
+        class="formControl" placeholder="Enter Your Email" required>
+    </div>
+    <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="number" name="phone"id="phone"
+        class="formControl" placeholder="Enter Your Phone Number" required>
+    </div>
+    <div class="form-group">
+        <label for="address">Address<span class="clue">(optional)</span></label>
+        <input type="text" name="address"id="address"
+        class="formControl" placeholder="Enter Your Address" required>
+        
+        <div class="form-group">
+            <p id="quest">How come you know about Our Restaurant?</p>
+            <label for="">
+                <input type="radio"
+                name="source"
+                value="friends"
+                class="inputradio"
+                checked>friends
+            </label>
+            <label for="">
+                <input type="radio"
+                name="source"
+                value="online-ads"
+                class="inputradio"
+                >online-ads
+            </label>
+            <label for="">
+                <input type="radio"
+                name="source"
+                value="tv-ads"
+                class="inputradio"
+                >Tv-ads
+            </label>
+            <label for="">
+                <input type="radio"
+                name="source"
+                value="newspaper"
+                class="inputradio"
+                >Newspaper
+            </label>
+        </div>
+        <div class="form-group">
+            <p id="quest">Would you like to see Improvization on?</p>
+            <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="masala dosa">Masala-dosa
+            </label>
+            <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="biriyani">Biriyani
+            </label>
+            <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="mutton dosa">Mutton-dosa
+            </label>
+            <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="mutton chops">Mutton-chops
+            </label>
+            <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="chettinad gravy">Chettinad-gravy
+            </label>
+        </div>
+           <div class="form-group">
+               <p id="quest">Give us your feedback</p>
+               <textarea name="feedback"
+               id="feedback" cols="30" rows="5" class="textarea" placeholder="Enter Your Feedback"></textarea>
+           </div>
+              <div class="form-group">
+               <button type="submit" id="submit" class="btn">Submit</button>
+
+              </div>
+
+    </div>
+
+
+</form>
+
+ </div>
 </body>
 </html>
